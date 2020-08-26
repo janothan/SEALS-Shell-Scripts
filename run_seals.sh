@@ -41,31 +41,38 @@ echo "Selected Track: Conference"
 command="$BEGIN http://oaei.webdatacommons.org/tdrs/ conference conference-v1 $SEALS_RESULTS"
 cd $SEALS_HOME
 echo $command
-eval "$command";
+eval "$command"
+;;
 4) 
 echo "Selected Track: multifarm de - en"
 command="$BEGIN http://oaei.webdatacommons.org/tdrs/ de-en de-en-v2 $SEALS_RESULTS"
 cd $SEALS_HOME
 echo $command
-eval "$command";
+eval "$command"
+;;
 5)
 echo "Selected Track: Interactive Conference"
 command="$BEGIN http://oaei.webdatacommons.org/tdrs/ interactive interactive-conference_2015 $SEALS_RESULTS"
 cd $SEALS_HOME
 echo $command
-eval "$command";
+eval "$command"
+;;
 6)
 echo "Selected Track: LargeBio Small 2016"
 command="$BEGIN http://oaei.webdatacommons.org/tdrs/ largebio largebio-fma_nci_small_2016 $SEALS_RESULTS"
 cd $SEALS_HOME
 echo $command
-eval "$command";
+eval "$command"
+;;
 7)
 echo "Selected Track: LargeBio Small 2016"
 command="$BEGIN http://oaei.webdatacommons.org/tdrs/ knowledgegraph v3 $SEALS_RESULTS"
 cd $SEALS_HOME
 echo $command
-eval "$command";
+eval "$command"
+;;
+e)
+break
 *)
 echo "Invalid Option";;
 
