@@ -1,6 +1,12 @@
 #!/bin/bash
 
-# The following 3 variables can also be set in the bash_profile: vim ~/.bash_profile
+# run_seals.sh
+# This script runs the matching sytem that is already unzipped in $SEALS_Matcher using the SEALS client.
+# (For copying your matcher to $SEALS_MATCHER you can use the prepare_matcher.sh script.)
+# When this script is run, the user is asked which OAEI track she wants to run.
+
+
+# The following variables can also be set in the bash_profile: vim ~/.bash_profile
 #SEALS_HOME = "" 
 #SEALS_MATCHER = ""
 #SEALS_CLIENT = ""
@@ -73,6 +79,7 @@ eval "$command"
 ;;
 e)
 break
+;;
 *)
 echo "Invalid Option";;
 
