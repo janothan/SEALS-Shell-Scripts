@@ -5,3 +5,12 @@ Note that the client requires Java 8.
 The scripts were only tested on MacOS but may also run on Linux.
 
 In order to develop matchers, build SEALS packages, and to evaluate matchers in depth, I can recommend the <a href="https://github.com/dwslab/melt/">Matching and EvaLuation Toolkit (MELT)</a>.
+
+## Example Call
+```
+prepare_matcher.sh ./ALOD2VecMatcher-1.0-SNAPSHOT-seals_external.zip
+```
+
+```
+run_seals.sh
+```
